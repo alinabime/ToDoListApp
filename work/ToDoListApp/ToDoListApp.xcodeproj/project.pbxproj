@@ -37,26 +37,6 @@
 		8A4FBEEC2CBD6D31008C6F28 /* ToDoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		8A0C3F592CC13FF200217AA1 /* Exceptions for "coreData" folder in "ToDoListApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				ToDoListApp.xcdatamodeld,
-			);
-			target = 8A4FBEEB2CBD6D31008C6F28 /* ToDoListApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-		8A0C3F5A2CC13FF200217AA1 /* Exceptions for "coreData" folder in "Compile Sources" phase from "ToDoListApp" target */ = {
-			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
-			buildPhase = 8A4FBEE82CBD6D31008C6F28 /* Sources */;
-			membershipExceptions = (
-				ToDoListApp.xcdatamodeld,
-			);
-		};
-/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8A0C3F4B2CC13ECD00217AA1 /* Models */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -65,10 +45,6 @@
 		};
 		8A0C3F562CC13FF200217AA1 /* coreData */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				8A0C3F592CC13FF200217AA1 /* Exceptions for "coreData" folder in "ToDoListApp" target */,
-				8A0C3F5A2CC13FF200217AA1 /* Exceptions for "coreData" folder in "Compile Sources" phase from "ToDoListApp" target */,
-			);
 			path = coreData;
 			sourceTree = "<group>";
 		};

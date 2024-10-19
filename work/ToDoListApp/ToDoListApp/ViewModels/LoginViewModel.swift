@@ -6,3 +6,8 @@
 //
 
 import Foundation
+class LoginViewModel: ObservableObject {
+    @Published var mail: String = ""
+    @Published var password: String = ""
+    init() {}
+}
