@@ -1,5 +1,6 @@
-import Foundation
 import FirebaseAuth
+import Foundation
+
 
 class LoginViewModel: ObservableObject {
     @Published var email = ""
